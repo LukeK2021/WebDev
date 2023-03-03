@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>London Landmarks</title> <!--- Important for SEO and Browser Tab display --->
+	<link rel="icon" type="image/x-icon" href="images\londonFavicon.jpg"> <!--- favicon, or browser tab icon --->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <!--- define content and charset --->
+	<meta name="viewport" content="width=device-width, initial-scale=1"/> <!--- scale to display on any device --->
+    <!--- SEO key words --->
+	<meta
+    name="description"
+    content="London landmarks site provides information about key London Landmarks and how to get to them." 
+  />
+  <link rel="stylesheet" href="mystyle.css">
+  <script src="https://aframe.io/releases/1.4.1/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene>
+            <a-box position="-1 0.5 0" rotation = "0 45 0" color="#4CC3D9"></a-box>
+            <a-sphere position="0 1.25 2" radius="0.25" color="#EF2D5E"></a-sphere>
+            <a-cylinder position="1 0.75 0" radius="0.5" height="1.5" colour="#FFC65D"></a-cylinder>
+            <a-plane position="0 0 0" rotation="-90 0 0" width="5" color="#7BC8A4"></a-plane>
+            <a-tetrahedron position="10 10 10" color="#FF926B" radius="5"></a-tetrahedron>
+            <a-sky colour="#ECECEC"></a-sky>
+        </a-scene>
+    </body>
